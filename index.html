@@ -14,7 +14,7 @@
 </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JA</title>
+    <title>Jennifer Abrom UX Designer</title>
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap" rel="stylesheet">
 </head>
@@ -27,8 +27,8 @@
         <nav class="inline-block">
             <ul>
                 <li class="inline-block">About</li>
-                <li class="inline-block">Skills</li>
-                <li class="inline-block">Work</li>
+                <a href="#skill1"><li class="inline-block">Skills</li></a>
+                <a href="#myuxskills"><li class="inline-block">Work</li></a>
                 <li class="inline-block">Contact</li>
             </ul>
         </nav>
@@ -49,9 +49,9 @@
     <!--My UX Skills section coded using CSS-->
     <div class="header"><h1>My UX Skills</h1></div>
     
-    <section class="mySkills">
+    <section id="mySkills" class="mySkills">
 
-        <div class="skill1">
+        <div id="skill1" class="skill1">
             <div class="images">
                 <img src="imgs/research teal.jpg" height="200px" width="300px">
             </div> 
@@ -92,19 +92,20 @@
 <section class="myWork">
        
         <div id="Wanderlust" class="myWork">
-            <div class="images"><a href="https://jennabrom.github.io/UX_UI_HW_20/"><img src="imgs/Wanderlust Home.png" height="300px"></a></div>
+            <div class="images"><img src="imgs/Wanderlust Home.png" height="300px"></div>
             <div class="text">
                 <h4>Wanderlust</h4>
                 <p>A mobile application for the budget-conscious traveler</p>
                 <button>View Case Study</button></div>
         </div>
         
-        <div id=PetBuddies class="myWork">
+        <div id="PetBuddies" class="myWork">
             <div class="images"><img src="imgs/petbuddies.png"height="300px"></div>
             <div class="text">
                 <h4>Pet Buddies Food Pantry</h4> 
                 <p>Responsive web design for a local non-profit organization</p>
-                <button>View Case Study</button></div>
+                <a href="https://jennabrom.github.io/UX_UI_HW_20/"><button>View Case Study</button></a>
+            </div>
         </div>
     </section>
 
